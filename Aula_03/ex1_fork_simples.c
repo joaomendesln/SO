@@ -12,7 +12,8 @@ int main(){
 	}
 	else if (pid == 0){
 		printf("Esta é a execução do filho\n");
-		for(;;);
+		for(;;)
+			;
 	}
 	else{
 		printf("O pai está esperando o filho\n");
